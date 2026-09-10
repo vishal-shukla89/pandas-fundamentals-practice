@@ -10,6 +10,8 @@ A structured practice series covering core pandas operations, plus two applied f
 - Core DataFrame operations: shape, info, describe, broadcasting, `.apply()`
 - Feature extraction from raw scraped text fields (episode counts, date ranges) on an anime ratings dataset
 - Feature extraction and conditional filtering (population extremes, region counts, string matching) on a countries dataset
+- DataFrame creation (from dict / list-of-lists), column and row selection, `.loc`/`.iloc`, conditional filtering
+- Missing data detection, removal (`.dropna()` with threshold), and imputation (`.fillna()`, constant/per-column/mean)
 
 ## Tech Stack
 - Python 3.13
